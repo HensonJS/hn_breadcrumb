@@ -12,7 +12,7 @@ class BreadcrumbComponent extends Mn.Service
     'breadcrumb ready': 'onReady'
     'breadcrumb set':   'set'
 
-  onAppReady: ->
+  onReady: ->
     @set([{text: 'Loading...'}])
     @showView()
 
